@@ -1,0 +1,431 @@
+/*****rootCSSRules*****/
+    :root {
+--brand-color: #DAF7A6;
+--light-brand-color: #FFC300;
+--text-color: #ff914f;
+--light-text-color: #900C3F;
+--alert-color: #f8f9fa;
+--success-color: #fbfbfb;
+--warning-color: #EE8800;
+--error-color: #DAF7A6;
+--black-color: #f8f9fa;
+--main-background-color: #fbfbfb;
+--light-background-color: #ff914f;
+--default-font: Verdana;
+--primary-font: Nunito;
+--secondary-font: ;
+--thirdprimary-font: Helvetica;
+}
+/*****rootCSSRules*****/
+
+/*****TypographyCSS*****/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    scroll-behavior: smooth;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    color: #353935;
+}
+
+/* no margin for header and footer section */
+section.footer,
+section.header {
+    margin: 0;
+}
+
+/* 20px top and bottom margin for all sections */
+section {
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+    margin: 0;
+    font-family: inherit;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+h1,
+.h1 {
+    font-size: 2.75rem;
+}
+
+h2,
+.h2 {
+    font-size: 2rem;
+}
+
+h3,
+.h3 {
+    font-size: 1.125rem;
+}
+
+h4,
+.h4 {
+    font-size: 1rem;
+}
+
+h5,
+.h5 {
+    font-size: 0.875rem;
+}
+
+h6,
+.h6 {
+    font-size: 0.813rem;
+}
+
+.lead {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-2 {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/*****TypographyCSS*****/
+
+/*****babajide*****/
+/* #babajide(babajideBanner) #css starts  */
+.babajideBanner .button {
+    background-color: #353935;
+    color: #fff
+}
+
+.babajideBanner .button:hover {
+    color: #fff
+}
+
+.babajideBanner .background {
+    position: relative;
+    padding: 100px;
+    overflow: hidden;
+}
+.babajideBanner .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.moksy.com/templates/default/banner/student-with-laptop-two.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    opacity: 0.5; 
+    z-index: -1; 
+}
+.babajideBanner p{
+    font-size: 18px;
+}
+.babajideBanner .container {
+    position: relative;
+    z-index: 1; /* Ensure the content is above the overlay */
+}
+@media only screen and (max-width: 600px) {
+    .babajideBanner .background {
+        padding: 50px; 
+    }
+
+    .babajideBanner .container h2 {
+        font-size: 1.5rem; 
+    }
+
+    .babajideBanner .container p {
+        font-size: 1rem; 
+    }
+
+    .babajideBanner .button {
+        font-size: 0.875rem; 
+    }
+}
+
+/* #babajide(babajideBanner) #css ends  */
+/*****babajide*****/
+
+/*****foshka*****/
+    /* #foshka(foshkaFeature) #css starts */
+    .foshkaFeature .fdb-block {
+        padding: 7.5rem 0
+    }
+
+    .foshkaFeature .fdb-block img.fdb-icon {
+        width: auto;
+        width: 3.75rem
+    }
+
+    /* #foshka(foshkaFeature) #css starts */
+    /*****foshka*****/
+
+/*****tioni*****/
+    /* #tioni(tioniTestimonial) #css starts  */
+    .tioniTestimonial .fdb-block {
+        padding: 3rem 0;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-color: #FFFFFF
+    }
+
+    .tioniTestimonial .fdb-block .fdb-box {
+        background: #FFFFFF;
+        padding: 2rem 2.5rem;
+        overflow: hidden;
+        color: #444444;
+        border-radius: 0.25rem;
+        box-shadow: 0 0.3125rem 0.875rem 0 rgba(129, 129, 129, 0.2) !important;
+    }
+
+    .tioniTestimonial .fdb-block .fdb-touch {
+        border-top: solid 0.3125rem #329ef7;
+        z-index: 2
+    }
+
+    .tioniTestimonial .personIMG {
+        max-height: 50px
+    }
+
+    /* #tioni(tioniTestimonial) #css ends  */
+    /*****tioni*****/
+
+/*****bartholomew*****/
+    /* #bartholomew(bartholomewBlog) #css starts  */
+    .bartholomewBlog .blog-home3 {
+        color: #8d97ad;
+        font-weight: 300
+    }
+
+    .bartholomewBlog .blog-home3 h3,
+    .bartholomewBlog .blog-home3 h5,
+    .bartholomewBlog .blog-home3 h6 {
+        color: #3e4555
+    }
+
+    .bartholomewBlog .blog-home3 h5 {
+        line-height: 22px;
+        font-size: 18px
+    }
+
+    .bartholomewBlog .blog-home3 a.link {
+        margin-left: 10px;
+        display: inline-block;
+        color: #3e4555
+    }
+
+    .bartholomewBlog .blog-home3 a.link:hover {
+        color: #316ce8
+    }
+
+    .bartholomewBlog .blog-home3 .font-weight-medium {
+        font-weight: 500
+    }
+
+    .bartholomewBlog .blog-home3 .bg-light {
+        background-color: #f4f8fa
+    }
+
+    .bartholomewBlog .blog-home3 .subtitle {
+        color: #8d97ad;
+        line-height: 24px
+    }
+
+    .bartholomewBlog .blog-home3 .card.card-shadow {
+        -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+        box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1)
+    }
+
+    .bartholomewBlog .blog-home3 .on-hover {
+        -webkit-transition: 0.2s ease-in;
+        -o-transition: 0.2s ease-in;
+        transition: 0.2s ease-in
+    }
+
+    .bartholomewBlog .blog-home3 .on-hover:hover {
+        -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        transform: translateY(-10px)
+    }
+
+    .bartholomewBlog .blog-home3 .bg-success-gradient {
+        background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    }
+
+    .bartholomewBlog .blog-home3 .date-pos {
+        font-size: 14px;
+        font-weight: bold;
+        color: #353935;
+    }
+
+    .bartholomewBlog .blog-home3 a {
+        overflow: hidden
+    }
+
+    .bartholomewBlog .blog-home3 a img {
+        -webkit-transition: 0.2s ease-in;
+        -o-transition: 0.2s ease-in;
+        transition: 0.2s ease-in
+    }
+
+    .bartholomewBlog .blog-home3 a img:hover {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05)
+    }
+
+    .bartholomewBlog .blog-image {
+        height: 223px;
+    }
+
+    /* #bartholomew(bartholomewBlog) #css ends  */
+    /*****bartholomew*****/
+
+/*****fanta*****/
+/* #fanta(fantaFooter) #css starts */
+.fantaFooter {
+    overflow: hidden;
+}
+
+.fantaFooter .logo {
+    max-width: 100px;
+}
+
+.fantaFooter .footer-wrap {
+    padding-top: 43px;
+    background: white;
+    background-size: cover
+}
+
+.fantaFooter .footer-wrap h3 {
+    color: #0A033C;
+    font-size: 17px;
+    margin-bottom: 25px
+}
+
+.fantaFooter .footer-wrap p {
+    font-size: 13px;
+    line-height: 24px;
+    color: #0A033C;
+    margin-top: 15px
+}
+
+.fantaFooter .footer-wrap p a {
+    color: #0A033C;
+    text-decoration: underline;
+    font-style: italic
+}
+
+.fantaFooter .footer-links li a {
+    font-size: 13px;
+    line-height: 30px;
+    color: #0A033C;
+    text-decoration: none
+}
+
+.fantaFooter .footer-category li a {
+    font-size: 13px;
+    line-height: 30px;
+    color: #0A033C;
+    text-decoration: none
+}
+
+.fantaFooter .copyright {
+    font-size: 14px;
+    color: #0A033C;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    background: #F0F8FF
+}
+
+.fantaFooter footer .first_class {
+    padding-bottom: 25px
+}
+
+.fantaFooter footer {
+    background: #333
+}
+
+.fantaFooter ul {
+    padding-left: 5px
+}
+
+.fantaFooter footer li {
+    list-style: none
+}
+
+@media(max-width:768px) {
+    .fantaFooter .footer-wrap h3 {
+        margin-top: 27px
+    }
+}
+
+@media(max-width:320px) {
+    .fantaFooter .copyright {
+        font-size: 13px
+    }
+}
+
+/* #fanta(fantaFooter) #css ends */
+/*****fanta*****/
+

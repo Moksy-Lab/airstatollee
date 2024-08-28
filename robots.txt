@@ -1,0 +1,23 @@
+# robots.txt for airstatollee
+
+User-agent: *
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cgi-bin/
+
+# Sitemap location
+Sitemap: https://moksy.com/templates/airstatollee//sitemap.xml
+
+# Host
+Host: https://moksy.com/templates/airstatollee/
+
+# Support Contact
+Contact: support@moksy.com
+
+# Additional information
+# Site Name: airstatollee
+# Site Description: 
+# Site Version: 1.0.0
+# Year: 2024
+
+# All rights reserved 2024 by Airstatollee
